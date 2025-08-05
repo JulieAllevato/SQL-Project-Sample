@@ -98,9 +98,9 @@ orders. What is the distribution of the customers across states?**
 ---
 
 ### **Business Recommendations**
-* The biggest impact on customer satisfaction is the time it takes to ship the vehicle. Customer satisfaction was highest in quarter 1 when the average shipping time was **57 days**. The shipping time increased to **117 days** from Q1 to Q4, directly correlating with a decrease in customer ratings. I recommend focusing on lowering your average shipping time.
+* The decrease in customer satisfaction correlates strongly with increased shipping times. This could lead to a **10-15% churn rate among dissatisfied customers**. I recommend an investigation into the logistics of these 'bad' shippers, as this could save the company in lost revenue from customer churn.
 * **35% of your customer base (349 out of 994)** comes from California, Texas, Florida, and New York. I recommend offering a sale to draw in more customers from those four key states.
 * The most popular vehicle makers in those states were **Audi in California, Chevrolet in Texas, and Toyota in New York and Florida**. A sale on those makers would likely bring in a larger client base during the promotion.
 * New Wheels received only "Very Bad" or "Bad" feedback when shipping orders through the following shippers:
   * Realcube, Meembee, Livefish, Shuffletag, Myworks, Cogibox, Buzzdog, Jatri, Aibox, Gigaclub, Mita, Fliptune, Dynava, Dynazzy, Jaxbean, Shufflebeat, Vitz, Babblestorm, Fivechat, Flipstorm, Blogpad, Skinder, Twitterbridge, Flashset, Bluezoom, Tanoodle, Browsezoom, Fatz, Topiclounge, Aimbo, Ntags, Skyndu, Meedoo, Tavu, Rhybox, Npath, Tambee, Meemm, Dabjam, Jabbertype, Tekfly, Mudo, Demivee, Voolith, Yoveo, and Demimbu.
-**Therefore, when possible, try to avoid shipping with these shipper names.**
+**Further analysis could involve creating a stored procedure to automatically flag orders being shipped by 'bad' shippers.**
